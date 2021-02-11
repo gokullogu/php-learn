@@ -70,7 +70,6 @@
     $food1=new food("tiffin","paper roast");
     echo $food1->deliver();
     echo "<p>---------</p>";
-    echo "<p>-----------------------*-------------------------</p>"
     ?>
 </body>
 
