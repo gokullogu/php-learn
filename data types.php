@@ -37,6 +37,39 @@
     //arrays
     $array1 =array("apple","mango","grapes");
     var_dump($array1);
+    echo "<p>---------</p>";
+
+    //class is object's template
+    //object is class's instance
+    class bike{
+     public $name;
+     public $color;
+     public function __construct($name,$color){
+        $this->name=$name;
+        $this->color=$color;
+     }
+     public function display(){
+         return "<p>name of bike = ".$this->name."<p>color of bike = ".$this->color.".</p>";
+     }
+    }
+    $object1=new bike("pulsar","black");
+    echo $object1->display();
+    echo "<p>---------</p>";
+
+    class food{
+        public $type;
+        public $dish;
+        public function __construct($type,$dish){
+            $this->type=$type;
+            $this->dish=$dish;
+        }
+        public function deliver(){
+        return "<p>you ordered : ".$this->type."</p><p>ordered dish name : ".$this->dish."</p>";
+        }
+    }
+    $food1=new food("tiffin","paper roast");
+    echo $food1->deliver();
+    echo "<p>---------</p>";
     ?>
 </body>
 
