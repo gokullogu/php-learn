@@ -35,7 +35,7 @@
     echo "<p>---------</p>";
 
     //arrays
-    $array1 = ("apple","mango","grapes");
+    $array1 =array("apple","mango","grapes");
     var_dump($array1);
     ?>
 </body>
