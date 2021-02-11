@@ -33,6 +33,8 @@
     echo "<p>boolean number = " . $boolean_num . "</p>";
     var_dump($boolean_num);
     echo "<p>---------</p>";
+
+    
     ?>
 </body>
 
