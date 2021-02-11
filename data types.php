@@ -34,7 +34,9 @@
     var_dump($boolean_num);
     echo "<p>---------</p>";
 
-    
+    //arrays
+    $array1 = ("apple","mango","grapes");
+    var_dump($array1);
     ?>
 </body>
 
