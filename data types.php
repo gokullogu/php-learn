@@ -14,7 +14,7 @@
     $str = 'hello world';
     echo "<p>string = " . $str . "</p>";
     var_dump($str);
-    echo "<br>";
+    echo "<br>hello";
 
     //integer "2147483648 to 2147483647"
     $integer_num = 25;
