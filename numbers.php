@@ -40,6 +40,16 @@
       echo "<p>number = $num5 <br> is_numeric returns ";
       var_dump(is_numeric($num5));
       echo "</p>";
+
+      //cast float to int
+      $float_num=25.345;
+      $int_cast=(int)$float_num;
+      echo "casting $float_num becomes $int_cast";
+
+      //cast string to int
+      $string_lit="23.456";
+      $int_cast1=(int)$string_lit;
+      echo "<p>casting $string_lit becomes $int_cast1</p>";
     ?>
 </body>
 </html>
